@@ -1,3 +1,4 @@
+# implementation of single layer perceptron
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -119,4 +120,5 @@ plt.title('Perceptron Training Error Over Epochs')
 plt.xlabel('Epoch')
 plt.ylabel('Total Misclassifications')
 plt.grid(True)
+
 plt.show()
