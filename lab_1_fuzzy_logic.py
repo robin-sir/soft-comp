@@ -1,3 +1,4 @@
+# implementation of fuzzy logic
 import numpy as np
 
 def fuzzy_union_or(A, B, operator='max'):
@@ -65,4 +66,5 @@ print(f"Result (NOT A): {NOT_A}\n")
 NOT_B = fuzzy_complement_not(B)
 print("--- Fuzzy COMPLEMENT (NOT B) ---")
 print(f"Operation: 1 - mu_B(x)")
+
 print(f"Result (NOT B): {NOT_B}")
