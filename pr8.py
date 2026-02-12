@@ -1,3 +1,4 @@
+# solving travelling salesman problem using genetic algorithm
 import random
 import numpy as np
 
@@ -72,3 +73,4 @@ for _ in range(GENERATIONS):
 best_tour = min(population, key=total_distance)
 print("Best tour:", best_tour)
 print("Minimum distance:", total_distance(best_tour))
+
