@@ -1,3 +1,5 @@
+# defuzzification technique
+
 import numpy as np
 import skfuzzy as fuzz
 import matplotlib.pyplot as plt
@@ -72,4 +74,5 @@ mf_2 = fuzz.trimf(X, [9, 15, 25])
 aggregated_mf = np.fmax(mf_1 * 0.7, mf_2 * 1.0) # Assume mf_1 was scaled down by rule strength 0.7
 
 # Run the demonstration
+
 demonstrate_defuzzification(X, aggregated_mf)
