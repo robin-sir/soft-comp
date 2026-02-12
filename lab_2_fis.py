@@ -1,3 +1,5 @@
+# fuzzy interface system
+
 import numpy as np
 import skfuzzy as fuzz
 from skfuzzy import control as ctrl
@@ -84,4 +86,5 @@ print("\n--- Example 2: Poor Service/Bad Food ---")
 tipping_simulation.input['service'] = 2
 tipping_simulation.input['food'] = 3
 tipping_simulation.compute()
+
 print(f"Recommended Tip: {tipping_simulation.output['tip']:.2f}%")
