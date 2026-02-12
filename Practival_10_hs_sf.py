@@ -28,3 +28,4 @@ print("---------------------------------------------")
 
 for t in temperature:
     print(f"{t}°C         | {hard_temperature(t):13} | {soft_temperature(t)}")
+
