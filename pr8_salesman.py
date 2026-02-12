@@ -74,3 +74,4 @@ best_tour = min(population, key=total_distance)
 print("Best tour:", best_tour)
 print("Minimum distance:", total_distance(best_tour))
 
+
