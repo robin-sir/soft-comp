@@ -1,3 +1,4 @@
+# multilayer perceprton using back propogation algorithm
 import numpy as np
 
 # --- 1. Define Activation and Derivative Functions (Sigmoid) ---
@@ -157,4 +158,5 @@ plt.title('MLP Training Error (Mean Squared Error) Over Epochs')
 plt.xlabel('Epoch')
 plt.ylabel('MSE')
 plt.grid(True)
+
 plt.show()
