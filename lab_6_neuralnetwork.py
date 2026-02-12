@@ -85,4 +85,5 @@ def implement_not_gate():
 # --- 4. Run the Implementations ---
 
 implement_or_gate()
+
 implement_not_gate()
