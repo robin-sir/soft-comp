@@ -112,3 +112,4 @@ plt.ylabel("Error")
 plt.title("ANFIS Training Error")
 plt.grid()
 plt.show()
+
