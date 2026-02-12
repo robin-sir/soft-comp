@@ -1,3 +1,4 @@
+# implementation of genetic algorithm
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -54,4 +55,5 @@ plt.show()
 plt.figure()
 plt.plot(x, fitness_function(x))
 plt.scatter(population, fitness_function(population))
+
 plt.show()
